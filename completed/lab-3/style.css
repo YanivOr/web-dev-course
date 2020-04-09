@@ -1,84 +1,21 @@
 body {
-  background: #cccccc;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #1e1e1e;
 }
 
-.user-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 280px;
-  background: #eeeeee;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 3px 3px 5px 0px rgba(130,130,130,0.75);
+p, div {
+  background: lightblue;
+  padding: 10px;
+  border: 4px solid purple;
 }
 
-.photo-row {
-  margin: 15px 0px;
+.green-border {
+  border: 4px solid yellowgreen;
 }
 
-.photo-row img {
-  border-radius: 50%;
+p[test-attribute="123"] {
+  border: 4px solid orangered;
 }
 
-.name-row {
-  margin: 5px 0px;
-  font-size: 20px;
-  color: #222222;
-}
-
-.name-row a {
-  color: #333333;
-  text-decoration: none;
-}
-
-.name-row a:hover {
-  text-decoration: underline;
-}
-
-.address-row {
-  margin: 0px;
-  font-size: 15px;
-  color: #333333;
-}
-
-.stats-row {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 45px 0px 30px 0px;
-}
-
-.stat-col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 20px 0px;
-}
-
-.button-row input[type="button"]{
-  width: 80%;
-  background: #90ee90;
-  border: 0px;
-  border-radius: 8px;
-  padding: 8px;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  outline:none;
-  box-shadow: 0px 1px 0px 0px rgba(130,130,130,0.75)
-}
-
-.button-row input[type="button"]:hover {
-  background: #86d786;
+#p1 {
+  border: 4px solid blue;
 }
