@@ -3,81 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My web title</title>
+  <title>HTML Basic</title>
 </head>
 <body>
-  <h1>Main Title</h1>
-  <h3>small title</h3>
+  <h1>HTML Basic</h1>
+  <h2>Some basic elements</h2>
+
+  <h3>Paragraph</h3>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum unde explicabo aliquid quaerat, quae, ipsa quisquam distinctio fugit laboriosam molestias tenetur aspernatur aperiam eligendi odio vel deserunt ea nisi ipsum!</p>
+
+  <h3>Image</h3>
   <img
     src="./images/image-1.jpg"
     alt="Alternative text">
+
+    <h3>Unordered List</h3>
   <ul>
     <li>table</li>
     <li>chair</li>
     <li>computer</li>
     <li>mouse</li>
   </ul>
+
+  <h3>Ordered List</h3>
   <ol>
     <li>table</li>
     <li>chair</li>
     <li>computer</li>
     <li>mouse</li>
   </ol>
-  <select name="" id="">
-    <option value="">chair</option>
-    <option value="">computer</option>
-    <option value="">mouse</option>
-  </select>
-  <br>
-  <input type="text">
-  <input type="button" value="Click Me">
-  <input type="checkbox" name="" id="">
-  <input type="color" name="" id="">
-  <input type="date" name="" id="">
-  <input type="file" name="" id="">
-  <input type="radio" name="" id="">
-  <br><br>
 
-  <p>group 1</p>
-  <input type="radio" name="test123" id="">
-  <input type="radio" name="test123" id="">
-  <input type="radio" name="test123" id="">
-  <p>group 2</p>
-  <input type="radio" name="test456" id="">
-  <input type="radio" name="test456" id="">
-  <input type="radio" name="test456" id="">
+  <h3>Links</h3>
+  <a href="http://google.com" target="_blank">click here to open Google</a>
 
-  <p>checkbox</p>
-  <input type="checkbox" name="test123" id="">
-  <input type="checkbox" name="test123" id="">
-  <input type="checkbox" name="test123" id="">
-
-  <br><br><br>
-
-  <label for="">text box</label>
-  <input type="text" placeholder="write something" value="pre defined value">
-  <br><br><br>
-
-  <textarea name="" id="" cols="30" rows="10"></textarea>
-
+  <h3>Block Elements vs Inline Elements</h3>
   <div>
     <span>inline 1</span>
     <span>inline 2</span>
     <span>inline 3</span>
   </div>
 
-  <br><br><br>
-  <br><br><br>
-  <br><br><br>
+  <div>
+    <span>inline 4</span>
+    <span>inline 5</span>
+    <span>inline 6</span>
+  </div>
 
+  <h2>Forms and user input elements</h2>
 
-  <a href="http://google.com" target="_blank">click here to open Google</a>
-  
-  
-  <br><br><br>
-  <br><br><br>
+  <form method="GET">
+    <fieldset>
+      <legend>First Fieldset - select</legend>
+      <label for="item-select">select item</label>
+      <select name="item-select" id="">
+        <option value="chair">Chair</option>
+        <option value="computer">Computer</option>
+        <option value="mouse">Mouse</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Second Fieldset - input elements</legend>
+      <div>
+        <label for="some-text">text</label>
+        <input type="text" name="some-text" placeholder="enter some text...">
+      </div>
+      <div>
+        <label for="">radio</label>
+        <input type="radio" name="" id="">
+      </div>
+      <div>
+        <label for="">checkbox</label>
+        <input type="checkbox" name="" id="">
+      </div>
+      <div>
+        <label for="">color</label>
+        <input type="color" name="" id="">
+      </div>
+      <div>
+        <label for="">date</label>
+        <input type="date" name="" id="">
+      </div>
+      <div>
+        <label for="">file</label>
+        <input type="file" name="" id="">
+      </div>
+      <div>
+        <input type="button" value="I'm a button, click me">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>radio vs checkbox</legend>
+      <p>group 1</p>
+      <input type="radio" name="test123" id="">
+      <input type="radio" name="test123" id="">
+      <input type="radio" name="test123" id="">
+      <p>group 2</p>
+      <input type="radio" name="test456" id="">
+      <input type="radio" name="test456" id="">
+      <input type="radio" name="test456" id="">
+      <p>checkbox</p>
+      <input type="checkbox" name="test123" id="">
+      <input type="checkbox" name="test123" id="">
+      <input type="checkbox" name="test123" id="">
+    </fieldset>
+    <fieldset>
+      <legend>textarea</legend>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>submit button</legend>
+      <input type="submit" value="SUBMIT">
+    </fieldset>
+  </form>
 
-  
 </body>
 </html>
