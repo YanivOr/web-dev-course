@@ -1,29 +1,3 @@
-
-
-
-
-/*
-let and const
-*/
-
-/** /
-let x = 4;
-
-console.log(x);
-
-x = 5;
-
-console.log(x);
-
-const y = 2;
-
-console.log(y);
-
-y = 3;
-
-console.log(y);
-/**/
-
 /*
 array
 */
