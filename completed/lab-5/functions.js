@@ -1,4 +1,4 @@
-/**
+/** /
 // Functions - old school
 function myFunc() {
   console.log('I am a function');
@@ -10,10 +10,18 @@ function myOtherFunc() {
   return 'I am a function';
 }
 
-myFunc();
-
-const myFuncResponse = myFunc();
+const myFuncResponse = myOtherFunc();
 console.log(myFuncResponse);
+
+function addition(x, y) {
+  return x + y;
+}
+
+const x = 3;
+const y = 5;
+
+const addResult = addition(x, y);
+console.log(`The result of ${x} + ${y} is: ${addResult}`);
 /**/
 
 /** /
@@ -23,17 +31,6 @@ const myFunc = () => {
 }
 
 const myFuncResponse = myFunc();
-console.log(myFuncResponse);
-/**/
-
-/** /
-// Functions - passing values
-const myFunc = (label) => {
-  return `I am an ${label}`;
-}
-
-const labelExample = 'arrow function';
-const myFuncResponse = myFunc(labelExample);
 console.log(myFuncResponse);
 /**/
 
