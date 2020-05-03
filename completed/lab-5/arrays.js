@@ -38,12 +38,14 @@ console.log('The value in index 3 is:',mix[3]);
 //mix[3]();
 /**/
 
-/**/
+/** /
 const fruits = [
   'apple',
   'orange',
   'banana',
   'mango',
 ];
+
+
 
 /**/
