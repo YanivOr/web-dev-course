@@ -1,3 +1,4 @@
+/** /
 const users =   {
     firstName: 'Yaron',
     lastName: 'Katz',
@@ -12,4 +13,4 @@ const users =   {
     stars: 420,
     followers: 1230,
   };
-  
+  /**/

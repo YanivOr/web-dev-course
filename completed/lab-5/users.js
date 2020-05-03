@@ -1,3 +1,4 @@
+/** /
 const users = [
   {
     firstName: 'Yaron',
@@ -42,3 +43,4 @@ const users = [
     followers: 1450,
   },
 ];
+/**/
