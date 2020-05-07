@@ -7,7 +7,7 @@
 </div>
 /**/
 
-/** /
+/**/
 const createCard = () => {
 
   const app = document.getElementById('app');
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 /**/
 
-/**/
+/** /
 const users = [
   {
     firstName: 'Yaron',
