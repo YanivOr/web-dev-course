@@ -133,7 +133,6 @@ document.addEventListener("DOMContentLoaded", () => {
     lastName,
     photo
   }) => {
-
     createCard(`${firstName} ${lastName}`, `./images/${photo}`);
   });
 });
