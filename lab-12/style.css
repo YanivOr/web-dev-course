@@ -1,0 +1,21 @@
+body {
+  background: #1e1e1e;
+  padding: 0px;
+  margin: 0px;
+}
+
+div:nth-child(1) {
+  width: 400px;
+  height: 200px;
+  background: palegreen;
+  padding: 0px;
+  margin: 0px;
+}
+
+div:nth-child(2) {
+  width: 400px;
+  height: 200px;
+  background: peru;
+  padding: 0px;
+  margin: 0px;
+}
