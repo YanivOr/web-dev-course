@@ -3,7 +3,7 @@
 // so that: /** /
 // will become: /**/
 
-/** /
+/**/
 // The "var" keyword
 var myVar = 5;
 console.log('myVar = ', myVar);
